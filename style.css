@@ -120,6 +120,11 @@ ul {
 	transition: all .2s ease;
 }
 
+.li-img_description > img{
+	height: 25px;
+	width: 30px;
+}
+
 .service-li:hover .li-img_description>h3 {
 	color: #1dde85;
 	transition: all .2s ease;
@@ -219,6 +224,7 @@ ul {
 	width: 95%;
 	margin:  0 auto;
     text-align: center;
+    padding: 0;
 }
 
 .latest-works {
@@ -233,7 +239,7 @@ ul {
 }
 
 .latest-works-li {
-	display: inline;
+	display: inline-block;
 	width: 10%;
 	margin: 0 3%;
 	padding: 6px;
@@ -264,7 +270,6 @@ ul {
 .latest-works-view-img {
 	width: 100%;
 	transition: all .5s ease;
-
 }
 
 .latest-works-view-div:hover .latest-works-view-img {
@@ -376,7 +381,7 @@ ul {
 
 .plans-li:hover .price-sup {
 	color: #fffcf4;
-		transition: all .3s ease;
+	transition: all .3s ease;
 }
 
 
@@ -423,7 +428,12 @@ ul {
 	color: #fffcf4;
 	border-radius: 5px;
 	padding: 10px;
+	font-size: 22px;
 
+}
+
+.email-newsletter { 
+	font-size :  18px;
 }
 
 .inputs>input::-webkit-input-placeholder {
@@ -595,6 +605,354 @@ footer {
 	text-align: center;
 	padding: 20px 0 20px 0;
 	margin: 0;
-
 }
+
+@media screen and (max-width: 970px){
+	.container {
+		width: 94%;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.logo {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.logo-list {
+	    display: inline-block;
+	    width: 100%;
+	    margin: 50px 0px 0 0;
+	    padding-top: 10px;
+	}
+
+	.logo-li {
+		display: inline;
+		width: 14%;
+		margin: 0 3%;
+	}
+
+	.logo-li:first-child {
+		margin-left: 0;
+	}
+
+	.logo-li:last-child {
+		margin-right: 0;
+	}
+
+	.logo-li > a {
+		font-size : 20px;
+	}
+
+	.service-li { 
+		width: 30%;
+		margin: 10px .5%;
+	}
+
+	.maker-profile {
+	     margin: 10px 3%;
+    	width: 33%;
+	}
+
+	.ul-latest-works {
+		margin: 15px 0 50px 0;
+	}
+
+	.latest-works-li {
+	    width: 13%;
+    	margin: 0 2%;
+	}
+
+	.latest-works-view-img {
+		width: 100%;
+		transition: all .6s ease;
+	}
+		
+	.latest-works-view-div:hover .latest-works-view-img {
+		border-radius: 50px;
+		transform: scale(1);
+		transition: all .6s ease;
+		border: 2px solid #1dde85;
+	}
+
+	.seeMore-div {
+		margin-top: 30px;
+	}
+
+	.plans-ul {
+		width: 100%;
+	}
+
+	.plans-li {
+		display: inline-block;
+    	width: 40%;
+    	margin: 10px 4%;
+    	border: 1px solid white;
+    	transition: all .3s ease;
+	}
+
+	.name, .email, .your-message {
+		font-size: 18px;
+	}
+
+	.name, .email {
+		width: 42%;
+	}
+
+	.your-message {
+		width: 89%;
+	}
+
+	.submit {
+		width: 30%;
+	}
+
+	.right-footer-div a {
+    	border: 2px solid #8f8e91;
+    	border-radius: 2px;
+    	padding: 15px 15px 5px;
+    	transition: all .2s ease;
+    	display: inline-block;
+    	text-align: center;
+    	width: 15%;
+    	margin: 10px 5px;
+    	height: 30px;
+    	vertical-align: top;
+	}
+
+	.email-newsletter {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.btn-subscribe {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container {
+		width: 90%;
+		padding: 0;
+	}
+
+	.logo-list {
+		display: : block;
+		width: 100%;
+	}
+
+	.logo {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.logo-li {
+		margin: 20px 0 0 0;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.logo-li:first-child {
+		margin-top: 0;
+	}
+
+	.logo-li:last-child {
+		margin-bottom: 100px;
+	}
+
+	.logo-li > a {
+		font-size: 30px;
+	}
+
+	.logo-li a:hover {
+		border-bottom: 0px;
+		transition: all .0s ease;
+	}	
+
+	.header-text  {
+		font-size: 24px;
+	}
+
+	.header-text p{
+		margin-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.welcome-header {
+		font-size:  32px;
+	}
+
+	.welcome-par {
+		 font-size: 22px;
+	}
+	
+	.service-list {
+		padding: 0;
+	}
+
+	.service-li { 
+		width: 46%;
+		margin: 10px 1%;
+
+	}
+	
+
+	.meet-us {
+		margin: 70px 0;
+	}
+	
+	.maker-profile {
+		width: 46%;
+		margin: 10px 1%;
+		padding: 0;
+	}
+
+	.maker-profile:first-child {
+		margin-left: 0;
+	}
+
+	.maker-profile:last-child {
+		margin-right: 0;
+	}
+	
+	.ul-latest-works {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.latest-works-li {
+		width: 100%;
+		display: block;
+		font-size: 30px;
+		margin: 0;
+		padding: 20px 0;
+	}
+
+	.latest-works-li a{
+		color: #454546;
+		text-align: justify;
+	}
+
+
+	.latest-works-li:first-child {
+		padding-top: 0;
+	}
+
+	.latest-works-li:last-child {
+		padding-bottom: 10px;
+
+	}
+
+	.latest-works-view-div:hover .latest-works-view-img {
+		border-radius: 0px;
+		transform: scale(1);
+		transition: all .0s ease;
+		border:0;
+	}
+
+	.seeMore-div {
+		width: 40%;
+		font-size:  24px;
+	}
+
+	.plans-ul {
+		width: 86%;
+		margin: 0 auto;
+	}
+
+	.plans-li {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.name , .email {
+		font-size: 20px;
+		width: 40%;
+	}
+
+	.your-message{
+		width: 88%;
+		font-size: 20px;
+	}
+
+	.submit {
+		width: 50%;
+	}
+	
+	.submit:hover {
+		transition: all .0s ease;
+		border: 0;
+		background-color: #1dde85;
+		transform: initial;
+	}
+
+
+	.submit:active {
+		background-color: #1dde85;
+		
+	}
+
+	.footer {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.left-footer-div{
+		display: block;
+		width: 100%;
+		margin: 0;
+		font-size: 26px;
+	}
+
+	.left-footer-div > p {
+		font-size: 22px;
+		text-align: justify;
+	}
+
+	.about-us {
+		margin-top: 0;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.mid-footer-div, .right-footer-div {
+
+		text-align: center;
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+	
+	.find-us {
+		padding: 20px;
+	}
+
+	.right-footer-div > a {
+		margin: 10px 5%;
+	}
+
+	.right-footer-div > a:first-child {
+		margin: 0;
+	} 
+	
+	.subscribe {
+		padding: 20px 0;
+	}
+
+	.email-newsletter {
+		width: 95%;
+		margin: 0;
+		font-size: 26px;
+	}
+
+	.btn-subscribe {
+		margin-top: 20px;
+		font-size:  26px;
+	}
+}
+
 
